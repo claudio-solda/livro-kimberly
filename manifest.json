@@ -1,0 +1,14 @@
+{
+  "name": "Livro da Kimberly",
+  "short_name": "Kimberly",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#831843",
+  "theme_color": "#831843",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
