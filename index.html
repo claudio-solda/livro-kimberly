@@ -483,7 +483,7 @@ async function addPhotoToFirestore(base64){
 // registra service worker (funciona offline pra abrir o app, fotos precisam de internet)
 if('serviceWorker' in navigator){
   window.addEventListener('load', ()=>{
-    navigator.serviceWorker.register('sw.js').catch(()=>{});
+    navigator.serviceWorker.register('sw.js?v=2').catch(()=>{});
   });
 }
 
